@@ -80,6 +80,22 @@ public class fstjfrm extends JFrame {
 		btnCustomer.setFont(new Font("Times New Roman", Font.BOLD, 17));
 		btnCustomer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				Runtime runtime = Runtime.getRuntime();
+				try {
+					
+					String current = new java.io.File( "." ).getCanonicalPath();
+					
+					current= current +"\\Cliente_main.jar";
+					//System.out.println(current);
+					runtime.exec("java -jar "+current);
+					Thread.sleep(320);
+					setVisible(false);
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 			}
 		});
 		contentPane.setLayout(null);

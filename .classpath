@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Gestore_Cliente/src"/>
+	<classpathentry kind="src" path="Gestore_Magazzino/src"/>
+	<classpathentry kind="src" path="Graphic/src"/>
+	<classpathentry kind="lib" path="Graphic/Gestore_magazzino.jar"/>
+	<classpathentry kind="lib" path="Graphic/miglayout15-swing.jar"/>
+	<classpathentry kind="lib" path="Graphic/NewSupermarket.jar"/>
+	<classpathentry kind="output" path="Gestore_Cliente/bin"/>
+</classpath>
